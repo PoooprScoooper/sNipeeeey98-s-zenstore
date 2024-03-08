@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chronus Zen Scripts Purchase</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your custom CSS file -->
+</head>
+<body>
+    <header>
+        <h1>Chronus Zen Scripts Purchase</h1>
+    </header>
+
+    <section>
+        <h2>Product Details</h2>
+        <p>Thank you for choosing Chronus Zen Scripts for Fortnite. Please review the product details before proceeding with your purchase.</p>
+        <!-- Add product details here -->
+    </section>
+
+    <section>
+        <h2>Purchase Confirmation</h2>
+        <p>By clicking "Buy Now", you will be directed to complete your $5.00 purchase through Cash App.</p>
+        <form action="https://cash.app/$sNipeeeey98" method="POST">
+            <button type="submit">Buy Now</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Chronus Zen Scripts. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+<?php
+// Check if the form is submitted
+if(isset($_POST['buyNow'])) {
+    // Perform payment verification here (e.g., verify payment through Cash App)
+    // If payment is successful, grant access to the script setup guide
+    $payment_verified = true; // For demonstration purposes, assume payment is verified
+
+    if($payment_verified) {
+        // Redirect to the script setup guide
+        header("Location: https://www.levelupscripts.com/view/downloads/free-cronus-zen-script-set-up-guide");
+        exit();
+    } else {
+        // Payment failed, display an error message or redirect to a failure page
+        echo "Payment verification failed. Please try again.";
+    }
+}
+?>
+<footer>if cash app link dosent work go to cashapp and search for $sNipeeeey98 where i can manually send you the script</footer>
